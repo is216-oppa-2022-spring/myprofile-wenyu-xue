@@ -4,11 +4,15 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
     color: #000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1500px;
 }
 
 .student-profile .card {
     border-radius: 10px;
 }
+
 
 .student-profile .card .card-header .profile_img {
     width: 150px;
@@ -35,6 +39,7 @@ body {
 .student-profile .table th,
 .student-profile .table td {
     font-size: 14px;
-    padding: 5px 10px;
+    padding: 3px 6px;
     color: #000;
 }
+
