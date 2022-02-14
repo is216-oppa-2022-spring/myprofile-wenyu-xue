@@ -10,6 +10,8 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'> -->
 
 	    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <style>
   h1,h2,h3,p{
@@ -38,67 +40,44 @@
 
 <body>
 		
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <div class="container">
+          <!-- navbar-toggler: when screen size shrink,will collapse as hambuger icon -->
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+              <span class="navbar-toggler-icon"></span>
+          </button>
 
-<header class="ScriptHeader">
-    <div class="rt-container">
-    	<div class="col-rt-12">
-        	<div class="rt-heading">
-            	<h1>My Profile</h1>
-            </div>
-        </div>
-    </div>
-</header>
+          <!-- Another Div, id="myMenu" -->
+          <div class="collapse navbar-collapse" id="myMenu">
+              <div class="navbar-nav">
+
+                  <a class="nav-item nav-link active" href="home.html">Home</a>
+                  <a class="nav-item nav-link" href="index.html">My profile</a>
+                  <a class="nav-item nav-link" href="#">Contact</a>
+
+              </div>
+          </div>
+
+      </div>
+
+  </nav>
 
 <section>
-    <div class="rt-container">
-          <div class="col-rt-12">
-              <div class="Scriptcontent">
+
 
 <div class="student-profile py-4">
   <div class="container">
     <div class="row">
       <div class="col-lg-4">
-        <div class="card shadow-sm">
-          <div class="card-header bg-transparent text-center">
-            <img class="profile_img" src="img/PH.png" alt="student dp">
-            <h3>WenYu</h3>
-          </div>
+
         <section id = "travelplace">
             <h3>My favorite travel place</h3>
             <iframe width="500" height="300" src="https://www.youtube.com/embed/sr3O7ArQTYY?autoplay=1&mute=1">
             </iframe>
         </section>
-        </div>
+
       </div>
-        <div class="card shadow-sm">
-          <div class="card-header bg-transparent border-0">
-            <h3 class="mb-0"><i class="far fa-clone pr-1"></i>General Information</h3>
-          </div>
-          <div class="card-body pt-0">
-            <table class="table table-bordered center">
-              <tr>
-                <th>Academic Year	</th>
-                <td>:</td>
-                <td>2019</td>
-              </tr>
-              <tr>
-                <th>Gender</th>
-                <td>:</td>
-                <td>Female</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-          <div style="height: 26px"></div>
-        <div class="card shadow-sm">
-          <div class="card-header bg-transparent border-0">
-            <h3 class="mb-0"><i class="far fa-clone pr-1"></i>Other Information</h3>
-          </div>
-          <div class="selfintro">
-              <p>A Year3 student from SMU</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis laboriosam sint quam et quasi architecto at dignissimos quo. Qui illo eum omnis assumenda praesentium porro incidunt nihil quidem veritatis. Atque.</p>
-          </div>
-        </div>
     </div>
   </div>
 </div>
